@@ -16,5 +16,13 @@ namespace CongCuGit
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if( txtPassword.Text =="admin" && txtUsername.Text =="admin")
+            {
+                MessageBox.Show("Succesful");
+            }    
+        }
     }
 }
