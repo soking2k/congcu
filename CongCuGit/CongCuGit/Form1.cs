@@ -19,7 +19,7 @@ namespace CongCuGit
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if( txtPassword.Text =="admin" && txtUsername.Text =="admin")
+            if( txtPassword.Text =="adminsk" && txtUsername.Text =="admin")
             {
                 MessageBox.Show("Succesful");
             }    
